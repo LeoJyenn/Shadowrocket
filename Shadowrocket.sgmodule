@@ -1,0 +1,71 @@
+#!name=自定义模块
+#!desc=github
+
+[Script]
+throttle-rewrite = type=http-response,pattern=^https:\/\/gum\.criteo\.com\/appevent\/v1\/2379\?.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/axinhouzilaoyue/myScript/main/surge/throttle-rewrite.js
+
+[Rule]
+# talkatone去广告
+DOMAIN-SUFFIX,ads.inmobi.com,REJECT
+DOMAIN-SUFFIX,tappx.com,REJECT
+DOMAIN-SUFFIX,criteo.com,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
+DOMAIN-SUFFIX,smaato.net,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-SUFFIX,adsappier.com,REJECT
+DOMAIN-SUFFIX,appier.net,REJECT
+DOMAIN-SUFFIX,appiersig.com,REJECT
+
+# talkatone让登录更容易
+DOMAIN-SUFFIX,mobilefuse.com,DIRECT
+DOMAIN-SUFFIX,inmobi.com,DIRECT
+DOMAIN-SUFFIX,crashlytics.com,DIRECT
+DOMAIN-SUFFIX,talkatone.com,DIRECT
+DOMAIN-SUFFIX,kochava.com,DIRECT
+# 这个域名最好走代理
+DOMAIN-SUFFIX,tktn.be,PROXY
+DOMAIN-SUFFIX,cohere.com,DIRECT
+DOMAIN-SUFFIX,ip-api.com,DIRECT
+DOMAIN-SUFFIX,agkn.com,DIRECT
+DOMAIN-SUFFIX,tktn.at,DIRECT
+IP-CIDR,50.117.27.0/24,DIRECT,no-resolve
+IP-CIDR,69.46.75.0/24,DIRECT,no-resolve
+IP-CIDR,205.164.56.0/24,DIRECT,no-resolve
+IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
+
+# DOMAIN,,REJECT-NO-DROP
+
+[Map Local]
+
+[MITM]
+hostname = %APPEND% gum.criteo.com
+
+# SIM卡分流
+# 地区检测
+DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
+# 沃达丰
+DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX, entsrv-uk.vodafone.com
+DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com
+IP-CIDR,88.82.0.0/19
+# CMLinkUK EE
+IP-CIDR,46.68.0.0/17
+# Giffgaff
+IP-CIDR,87.194.0.0/16
+
+# APP分流
+
+# 狗卡Cypher Wallet
+DOMAIN-SUFFIX,cypherhq.io,RN
+# PayPal
+DOMAIN-SUFFIX,paypal.com,GCP
+DOMAIN-SUFFIX,paypalobjects.com,GCP
+# ping0
+DOMAIN-SUFFIX,ping0.cc,PROXY
+# 极速机场
+jsjc.cfd
+
+
