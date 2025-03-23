@@ -6,16 +6,21 @@ throttle-rewrite = type=http-response,pattern=^https:\/\/gum\.criteo\.com\/appev
 
 [Rule]
 # talkatone去广告
-DOMAIN-SUFFIX,ads.inmobi.com,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,inmobi.cn,REJECT
 DOMAIN-SUFFIX,tappx.com,REJECT
 DOMAIN-SUFFIX,criteo.com,REJECT
 DOMAIN-SUFFIX,pubmatic.com,REJECT
 DOMAIN-SUFFIX,smaato.net,REJECT
 DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
-DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-SUFFIX,doubleverify.com,REJECT
+DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
+DOMAIN-SUFFIX,inner-active.mobi,REJECT
 DOMAIN-SUFFIX,adsappier.com,REJECT
 DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,appiersig.com,REJECT
+DOMAIN-KEYWORD,googleads,REJECT
+
 
 # talkatone让登录更容易
 DOMAIN-SUFFIX,mobilefuse.com,DIRECT
