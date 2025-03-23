@@ -36,13 +36,13 @@ IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
 
 # SIM分流
 # 地区检测
-DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com,PROXY
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com/pep/gcc,PROXY
 # 沃达丰
-DOMAIN-SUFFIX, epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX, ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX, ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX, entsrv-uk.vodafone.com,UK
-DOMAIN-SUFFIX, vuk-gto.prod.ondemandconnectivity.com,UK
+DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
+DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
+DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org,UK
+DOMAIN-SUFFIX,entsrv-uk.vodafone.com,UK
+DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com,UK
 IP-CIDR,88.82.0.0/19,UK
 # CMLinkUK EE
 IP-CIDR,46.68.0.0/1,UK
