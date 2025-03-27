@@ -39,27 +39,21 @@ IP-CIDR,69.46.75.0/24,DIRECT,no-resolve
 IP-CIDR,205.164.56.0/24,DIRECT,no-resolve
 IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
 
-# SIM分流
 # 地区检测
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com/pep/gcc,PROXY
-# 沃达丰
-DOMAIN-SUFFIX,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX,ss.epdg.epc.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc015.mcc234.pub.3gppnetwork.org,UK
-DOMAIN-SUFFIX,entsrv-uk.vodafone.com,UK
-DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com,UK
-IP-CIDR,88.82.0.0/19,UK
-# CMLinkUK EE
-IP-CIDR,46.68.0.0/1,UK
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,UK
+
 # Giffgaff
 IP-CIDR,87.194.0.0/16,UK
 
-# APP分流
-# 狗卡Cypher Wallet
+# Cypher Wallet
 DOMAIN-SUFFIX,cypherhq.io,RN
+
 # PayPal
 DOMAIN-SUFFIX,paypal.com,GCP
 DOMAIN-SUFFIX,paypalobjects.com,GCP
+DOMAIN-SUFFIX,paypal.me,GCP
+DOMAIN-SUFFIX,paypal-business.co.uk,GCP
+
 # ping0
 DOMAIN-SUFFIX,ping0.cc,PROXY
 
@@ -67,6 +61,5 @@ DOMAIN-SUFFIX,ping0.cc,PROXY
 
 [MITM]
 hostname = %APPEND% gum.criteo.com
-
 
 
