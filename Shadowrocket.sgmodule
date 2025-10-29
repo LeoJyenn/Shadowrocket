@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,talkatone.com,DIRECT
 DOMAIN-SUFFIX,kochava.com,DIRECT
 
 # 这个域名最好走代理
-DOMAIN-SUFFIX,tktn.be,ClawCloud美国
+DOMAIN-SUFFIX,tktn.be,ClawCloud
 DOMAIN-SUFFIX,cohere.com,DIRECT
 DOMAIN-SUFFIX,ip-api.com,DIRECT
 DOMAIN-SUFFIX,agkn.com,DIRECT
