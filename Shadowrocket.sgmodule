@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,talkatone.com,DIRECT
 DOMAIN-SUFFIX,kochava.com,DIRECT
 
 # 这个域名最好走代理
-DOMAIN-SUFFIX,tktn.be,ClawCloud
+DOMAIN-SUFFIX,tktn.be,Lunes Host
 DOMAIN-SUFFIX,cohere.com,DIRECT
 DOMAIN-SUFFIX,ip-api.com,DIRECT
 DOMAIN-SUFFIX,agkn.com,DIRECT
@@ -43,7 +43,9 @@ IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,UK
 
 # Giffgaff
-IP-CIDR,87.194.0.0/16,UK
+IP-CIDR,87.194.0.0/19,UK
+IP-CIDR,87.194.88.0/23,UK
+DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org,UK
 
 # PayPal
 DOMAIN-SUFFIX,paypal.com,GCP
