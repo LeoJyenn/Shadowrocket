@@ -69,6 +69,12 @@ DOMAIN-KEYWORD,byabcde,🇦🇺澳大利亚悉尼
 DOMAIN-KEYWORD,bitverse,🇦🇺澳大利亚悉尼
 DOMAIN-KEYWORD,geetest,🇦🇺澳大利亚悉尼
 
+#Copilot
+DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
+DOMAIN-SUFFIX,*.copilot.microsoft.com,PROXY
+DOMAIN-SUFFIX,copilot.chat.bing.com,PROXY
+DOMAIN-SUFFIX,*.bingapis.com,PROXY
+
 # 海纳思
 DOMAIN-SUFFIX,hinas.pp.ua,DIRECT
 IP-CIDR, 2001:41d0:a:5b18:be24:11ff:fe46:f56e,DIRECT
