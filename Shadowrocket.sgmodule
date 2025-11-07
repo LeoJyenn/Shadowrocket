@@ -54,20 +54,21 @@ DOMAIN-SUFFIX,paypal.me,GCP
 DOMAIN-SUFFIX,paypal-business.co.uk,GCP
 
 # Bybit must DIRECT
-DOMAIN-SUFFIX,bybit.com,🇦🇺澳大利亚悉尼
-DOMAIN-SUFFIX,bytick.com,🇦🇺澳大利亚悉尼
-DOMAIN-SUFFIX,byhkbit.com,🇦🇺澳大利亚悉尼
-DOMAIN-SUFFIX,bybit-tr.com,🇦🇺澳大利亚悉尼
-DOMAIN-SUFFIX,bybit.nl,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,bybit,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,bytick,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,bycsi,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,byapis,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,bybdc6,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,byd3c3,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,byabcde,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,bitverse,🇦🇺澳大利亚悉尼
-DOMAIN-KEYWORD,geetest,🇦🇺澳大利亚悉尼
+DOMAIN-SUFFIX,bybit.com,澳大利亚悉尼
+DOMAIN-SUFFIX,*.bybit.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bytick.com,澳大利亚悉尼
+DOMAIN-SUFFIX,byhkbit.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bybit-tr.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bybit.nl,澳大利亚悉尼
+DOMAIN-KEYWORD,bybit,澳大利亚悉尼
+DOMAIN-KEYWORD,bytick,澳大利亚悉尼
+DOMAIN-KEYWORD,bycsi,澳大利亚悉尼
+DOMAIN-KEYWORD,byapis,澳大利亚悉尼
+DOMAIN-KEYWORD,bybdc6,澳大利亚悉尼
+DOMAIN-KEYWORD,byd3c3,澳大利亚悉尼
+DOMAIN-KEYWORD,byabcde,澳大利亚悉尼
+DOMAIN-KEYWORD,bitverse,澳大利亚悉尼
+DOMAIN-KEYWORD,geetest,澳大利亚悉尼
 
 #Copilot
 DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
