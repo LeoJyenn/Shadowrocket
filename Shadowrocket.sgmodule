@@ -60,15 +60,29 @@ DOMAIN-SUFFIX,bytick.com,澳大利亚悉尼
 DOMAIN-SUFFIX,byhkbit.com,澳大利亚悉尼
 DOMAIN-SUFFIX,bybit-tr.com,澳大利亚悉尼
 DOMAIN-SUFFIX,bybit.nl,澳大利亚悉尼
+DOMAIN-SUFFIX,bybit-exchange.com,澳大利亚悉尼
+DOMAIN-SUFFIX,byapis.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bybdc6.com,澳大利亚悉尼
+DOMAIN-SUFFIX,byd3c3.com,澳大利亚悉尼
+DOMAIN-SUFFIX,byabcde.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bitverse.ai,澳大利亚悉尼
+DOMAIN-SUFFIX,bitversegame.com,澳大利亚悉尼
+
+# 行情推送
+DOMAIN-SUFFIX,stream.bybit.com,澳大利亚悉尼
+DOMAIN-SUFFIX,stream.bytick.com,澳大利亚悉尼
+
+# 验证/风控（非常重要，否则仍会识别到你本地）
+DOMAIN-SUFFIX,geetest.com,澳大利亚悉尼
+DOMAIN-SUFFIX,hcaptcha.com,澳大利亚悉尼
+DOMAIN-SUFFIX,funcaptcha.com,澳大利亚悉尼
+DOMAIN-SUFFIX,arkoselabs.com,澳大利亚悉尼
+
+# 关键词兜底
 DOMAIN-KEYWORD,bybit,澳大利亚悉尼
 DOMAIN-KEYWORD,bytick,澳大利亚悉尼
-DOMAIN-KEYWORD,bycsi,澳大利亚悉尼
-DOMAIN-KEYWORD,byapis,澳大利亚悉尼
-DOMAIN-KEYWORD,bybdc6,澳大利亚悉尼
-DOMAIN-KEYWORD,byd3c3,澳大利亚悉尼
-DOMAIN-KEYWORD,byabcde,澳大利亚悉尼
 DOMAIN-KEYWORD,bitverse,澳大利亚悉尼
-DOMAIN-KEYWORD,geetest,澳大利亚悉尼
+
 
 #Copilot
 DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
