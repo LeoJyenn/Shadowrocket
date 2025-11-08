@@ -58,40 +58,29 @@ DOMAIN-SUFFIX,bybit.com,澳大利亚悉尼
 DOMAIN-SUFFIX,*.bybit.com,澳大利亚悉尼
 DOMAIN-SUFFIX,bytick.com,澳大利亚悉尼
 DOMAIN-SUFFIX,*.bytick.com,澳大利亚悉尼
-
-# API + 交易撮合
+DOMAIN-SUFFIX,bybitglobal.com,澳大利亚悉尼
 DOMAIN-SUFFIX,bybit-exchange.com,澳大利亚悉尼
 DOMAIN-SUFFIX,byapis.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bybitglobal.com,澳大利亚悉尼
-
-# 静态前端资源
-DOMAIN-SUFFIX,static.bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,static.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,cdn.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,cloudfront.net,澳大利亚悉尼
-
-# 登录 & 设备指纹风控（关键！不走这个就一定提示 IP 受限）
+DOMAIN-SUFFIX,byapps.net,澳大利亚悉尼
+DOMAIN-SUFFIX,bybit.biz,澳大利亚悉尼
+DOMAIN-SUFFIX,bybtapp.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bybit-sso.com,澳大利亚悉尼
+DOMAIN-SUFFIX,bytick-sso.com,澳大利亚悉尼
 DOMAIN-SUFFIX,arkoselabs.com,澳大利亚悉尼
 DOMAIN-SUFFIX,funcaptcha.com,澳大利亚悉尼
 DOMAIN-SUFFIX,hcaptcha.com,澳大利亚悉尼
 DOMAIN-SUFFIX,geetest.com,澳大利亚悉尼
-
-# 进一步的指纹上报与安全 Beacon
-DOMAIN-SUFFIX,abtest.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,stats.bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bat.bing.com,澳大利亚悉尼
-DOMAIN-SUFFIX,perimeterx.net,澳大利亚悉尼
-DOMAIN-SUFFIX,px-cloud.net,澳大利亚悉尼
-
-# 行情流
+DOMAIN-SUFFIX,bybit.biz,澳大利亚悉尼
 DOMAIN-SUFFIX,stream.bybit.com,澳大利亚悉尼
 DOMAIN-SUFFIX,stream.bytick.com,澳大利亚悉尼
-
-# 兜底
+DOMAIN-SUFFIX,static.bytick.com,澳大利亚悉尼
+DOMAIN-SUFFIX,static.bybit.com,澳大利亚悉尼
+DOMAIN-SUFFIX,cloudfront.net,澳大利亚悉尼
 DOMAIN-KEYWORD,bybit,澳大利亚悉尼
 DOMAIN-KEYWORD,bytick,澳大利亚悉尼
 DOMAIN-KEYWORD,arkose,澳大利亚悉尼
 DOMAIN-KEYWORD,captcha,澳大利亚悉尼
+
 
 
 #Copilot
