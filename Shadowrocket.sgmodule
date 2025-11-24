@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,talkatone.com,DIRECT
 DOMAIN-SUFFIX,kochava.com,DIRECT
 
 # 这个域名最好走代理
-DOMAIN-SUFFIX,tktn.be,Lunes Host
+DOMAIN-SUFFIX,tktn.be,Talkatone
 DOMAIN-SUFFIX,cohere.com,DIRECT
 DOMAIN-SUFFIX,ip-api.com,DIRECT
 DOMAIN-SUFFIX,agkn.com,DIRECT
@@ -39,62 +39,37 @@ IP-CIDR,69.46.75.0/24,DIRECT,no-resolve
 IP-CIDR,205.164.56.0/24,DIRECT,no-resolve
 IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
 
-# 地区检测
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,UK
-
 # Giffgaff
-IP-CIDR,87.194.0.0/19,UK
-IP-CIDR,87.194.88.0/23,UK
-DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org,UK
+IP-CIDR,87.194.0.0/19,Giffgaff
+IP-CIDR,87.194.88.0/23,Giffgaff
+DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org,Giffgaff
 
 # PayPal
-DOMAIN-SUFFIX,paypal.com,GCP
-DOMAIN-SUFFIX,paypalobjects.com,GCP
-DOMAIN-SUFFIX,paypal.me,GCP
-DOMAIN-SUFFIX,paypal-business.co.uk,GCP
+DOMAIN-SUFFIX,paypal.com,Paypal
+DOMAIN-SUFFIX,paypalobjects.com,Paypal
+DOMAIN-SUFFIX,paypal.me,Paypal
+DOMAIN-SUFFIX,paypal-business.co.uk,Paypal
 
 # Bybit must DIRECT
-DOMAIN-SUFFIX,bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,*.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,*.bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bybitglobal.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bybit-exchange.com,澳大利亚悉尼
-DOMAIN-SUFFIX,byapis.com,澳大利亚悉尼
-DOMAIN-SUFFIX,byapps.net,澳大利亚悉尼
-DOMAIN-SUFFIX,bybit.biz,澳大利亚悉尼
-DOMAIN-SUFFIX,bybtapp.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bybit-sso.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bytick-sso.com,澳大利亚悉尼
-DOMAIN-SUFFIX,arkoselabs.com,澳大利亚悉尼
-DOMAIN-SUFFIX,funcaptcha.com,澳大利亚悉尼
-DOMAIN-SUFFIX,hcaptcha.com,澳大利亚悉尼
-DOMAIN-SUFFIX,geetest.com,澳大利亚悉尼
-DOMAIN-SUFFIX,bybit.biz,澳大利亚悉尼
-DOMAIN-SUFFIX,stream.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,stream.bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,static.bytick.com,澳大利亚悉尼
-DOMAIN-SUFFIX,static.bybit.com,澳大利亚悉尼
-DOMAIN-SUFFIX,cloudfront.net,澳大利亚悉尼
-DOMAIN-KEYWORD,bybit,澳大利亚悉尼
-DOMAIN-KEYWORD,bytick,澳大利亚悉尼
-DOMAIN-KEYWORD,arkose,澳大利亚悉尼
-DOMAIN-KEYWORD,captcha,澳大利亚悉尼
-
-
+DOMAIN-SUFFIX,bybit.com,Bybit
+DOMAIN-SUFFIX,bytick.com,Bybit
+DOMAIN-SUFFIX,bybitglobal.com,Bybit
+DOMAIN-SUFFIX,bybit-exchange.com,Bybit
+DOMAIN-SUFFIX,byapis.com,Bybit
+DOMAIN-SUFFIX,byapps.net,Bybit
+DOMAIN-SUFFIX,bybtapp.com,Bybit
+DOMAIN-SUFFIX,bybit-sso.com,Bybit
+DOMAIN-SUFFIX,bytick-sso.com,Bybit
+DOMAIN-SUFFIX,arkoselabs.com,Bybit
+DOMAIN-SUFFIX,funcaptcha.com,Bybit
+DOMAIN-SUFFIX,hcaptcha.com,Bybit
+DOMAIN-SUFFIX,geetest.com,Bybit
 
 #Copilot
 DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
 DOMAIN-SUFFIX,*.copilot.microsoft.com,PROXY
 DOMAIN-SUFFIX,copilot.chat.bing.com,PROXY
 DOMAIN-SUFFIX,*.bingapis.com,PROXY
-
-# 海纳思
-DOMAIN-SUFFIX,hinas.pp.ua,DIRECT
-IP-CIDR, 2001:41d0:a:5b18:be24:11ff:fe46:f56e,DIRECT
-IP-CIDR, 2a0c:8881:4::95:3258,DIRECT
-IP-CIDR, 2604:abc0:103:415:a1::17a,DIRECT
-IP-CIDR, 2a05:4140:3::4aa6:a38,DIRECT
 
 [Map Local]
 
