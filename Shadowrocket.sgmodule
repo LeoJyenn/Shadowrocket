@@ -60,6 +60,8 @@ DOMAIN-SUFFIX,byapps.net,Bybit
 DOMAIN-SUFFIX,bybtapp.com,Bybit
 DOMAIN-SUFFIX,bybit-sso.com,Bybit
 DOMAIN-SUFFIX,bytick-sso.com,Bybit
+DOMAIN-SUFFIX,bybit.biz,Bybit
+DOMAIN-SUFFIX,*.bybit.biz,Bybit
 DOMAIN-SUFFIX,arkoselabs.com,Bybit
 DOMAIN-SUFFIX,funcaptcha.com,Bybit
 DOMAIN-SUFFIX,hcaptcha.com,Bybit
