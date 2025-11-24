@@ -66,6 +66,15 @@ DOMAIN-SUFFIX,arkoselabs.com,Bybit
 DOMAIN-SUFFIX,funcaptcha.com,Bybit
 DOMAIN-SUFFIX,hcaptcha.com,Bybit
 DOMAIN-SUFFIX,geetest.com,Bybit
+DOMAIN-SUFFIX,bybdc6.com,Bybit
+DOMAIN-SUFFIX,byd3c3.com,Bybit
+DOMAIN-SUFFIX,byabcde.com,Bybit
+DOMAIN-SUFFIX,bynbc.com,Bybit
+DOMAIN-SUFFIX,ng-dex.com,Bybit
+DOMAIN-SUFFIX,wsot2022.com,Bybit
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,Bybit
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,Bybit
+DOMAIN-SUFFIX,ap-southeast-1.amazonaws.com,Bybit
 
 #Copilot
 DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
